@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf7f4;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #e3fbff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 105px rgba(255, 0, 0, 0.1);
+}
+input[type="text"], input[type="email"], textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid rgb(104, 93, 93);
+    border-radius: 3px;
+    background-color: #f5fdfb
+}
+input[type="submit"] {
+    background-color: #32ac36;
+    color: #030703;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
